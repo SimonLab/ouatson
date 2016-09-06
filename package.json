@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SimonLab/ouatson#readme",
   "dependencies": {
+    "handlebars": "^4.0.5",
     "hapi": "^15.0.3",
     "hoek": "^4.0.2",
     "inert": "^4.0.2",
