@@ -7,7 +7,8 @@ exports.register = function (server, options, next) {
     config: {
       description: 'return the home page',
       handler: function (request, reply) {
-          return reply.view('home');
+          const data = require('./data.json');
+          return reply.view('home', {data: data});
       }
     }
   }

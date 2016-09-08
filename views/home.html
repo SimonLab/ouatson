@@ -1,1 +1,22 @@
-<h1>OuatsOn</h1>
+<div class='container'>
+  <h1 class='title'>OuatsOn</h1>
+
+  <ul class='list'>
+
+    {{#each data}}
+       <li class='list-item'>
+
+         <div class="list-header">
+           <span class='list-time'>{{time}}</span>
+           -
+           <span class='list-title'>{{title}}</span>
+         </div>
+
+         <div class="list-details">
+           <span class='list-location'>{{location}}</span>
+         </div>
+
+       </li>
+     {{/each}}
+  </ul>
+</div>

@@ -3,6 +3,13 @@
    License: none (public domain)
 */
 
+/*
+Blue: #0D47A1
+Indigo: #1A237E
+Deep Purple: #311B92
+grey: #EEEEEE
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,9 +35,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -45,4 +50,53 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5rem;
+  background-color: #EEEEEE;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Noto Sans', Helvetica, Ariel, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.title {
+    padding: 1rem 8%;
+    margin: 0;
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+    background: #311B92;
+}
+
+.list-item {
+	position: relative;
+	list-style: none;
+	width: 90%;
+	margin: 0.7rem auto;
+	padding: 1rem 0;
+	background-color: white;
+	box-shadow: 0.20rem 0.20rem 0.1rem #888888;
+}
+
+.list-header, .list-details {
+  padding: 0rem 3%;
+}
+
+.list-time {
+	font-weight: bold;
+}
+
+.list-location {
+	color: #828282;
 }
